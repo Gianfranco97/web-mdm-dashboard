@@ -19,3 +19,17 @@
     }
   }
 }
+
+// ICON'S TRANSITION
+.img-pop {
+
+  transition: .2s ease-in-out;
+
+  // INCREASES THE SIZE OF THE ICONS ON HOVER
+  &:hover {
+
+    @include box-shadow(0 0 5px $gray);
+    transform: scale(1.1);
+  }
+
+}
